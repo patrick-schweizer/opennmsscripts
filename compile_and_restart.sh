@@ -7,4 +7,4 @@ sudo rm -r ./target
 ./clean.pl && ./compile.pl -DskipTests && ./assemble.pl -p dir
 ./target/opennms-21.1.0-SNAPSHOT/bin/runjava -s
 sudo ./target/opennms-21.1.0-SNAPSHOT/bin/install -dis
-sudo ./target/opennms-21.1.0-SNAPSHOT/bin/opennms start
+sudo ./target/opennms-21.1.0-SNAPSHOT/bin/opennms -vt start
